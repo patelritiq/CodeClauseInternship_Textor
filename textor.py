@@ -9,7 +9,7 @@ from tkinter import filedialog, messagebox
 class SimpleTextEditor:
     def __init__(self, root):
         self.root = root
-        self.root.title("\'Textor\':Simple Text Editor")
+        self.root.title("\'Textor\': Simple Text Editor")
         self.root.geometry("800x600")
 
         # Add Text Widget
